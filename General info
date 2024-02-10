@@ -1,0 +1,73 @@
+# The source 
+The dataset was sourced from kaggle website The link:
+[here]https://www.kaggle.com/datasets/shariful07/student-flexibility-in-online-learning
+
+
+
+# General information
+
+Number of attributes:11 , Number of object:1206 , Class label: Flexibility level has three  Flexibility level : High , Moderate , Low 
+
+1-Education Level: Educational leve of student :College , University , School
+2-Institution Type: An institution is a big group that does important things,there's two type of Institution : private , public
+3-Gender: Gender of the student  (Female , male)
+4-Age: The real age of the student 
+5-Device: The device used by student : Tab , Mobile , Computer
+6-IT Student: The student specialty is wether he/she is an information technology student or not 
+7-Location: The place where the student lives : Town , Rural 
+8-Financial Condition:The student's financial condition : Rich , Mid , Poor 
+9-Internet Type: The internet connects devices , there's two type : Mobile data , Wifi
+10-Network Type: internet bands such as 2G , 3G , 4G 
+11-Flexibility Level:Flexibility level refers to how easily something can change or adapt , there's three  Flexibility level : High , Moderate , Low
+
+
+    +------------+-----------+----------------+-------+
+    | attribute  | data type | possible values        |
+    | name       |           |                        |
+    +============+===========+========================+
+    |Education   |           |  "school"              |
+    |  Level     | string    |  ,"University"         |
+    |            |           |  ,"College"            |
+    |            |           |                        |
+    +------------+-----------+------------------------+
+    | Institution| string    | "private" or  public   |
+    | type       |           |                        |
+    |            |           |                        |
+    |            |           |                        |
+    +------------+-----------+------------------------+
+    | Gender     | string    |  Female , male         |
+    |            |           |                        |
+    |            |           |                        |
+    +------------+-----------+------------------------+
+    |  Age       | integer   |  9 to 27               |
+    |            |           |                        |  
+    |            |           |                        |
+    +------------+-----------+------------------------+
+    | Device     | string    | "Tab"                  |
+    |            |           | ,"Mobile"              |
+    |            |           | ,"Computer"            |
+    +------------+-----------+------------------------+
+    | IT Student | Boolean   |  "Yes" or "No"         |
+    |            |           |                        |
+    |            |           |                        |
+    +------------+-----------+------------------------+
+    | Location   | string    | "town" or "Rural"      |
+    |            |           |                        |
+    |            |           |                        |
+    +------------+-----------+------------------------+
+    |Financial   | string    | "Rich" , "Mid" ,"poor" |
+    |Condition   |           |                        |
+    |            |           |                        |
+    +------------+-----------+------------------------+
+    | Internet   | string    | "Mobile data" ,        |
+    | type       |           |    "Wifi"              |
+    |            |           |                        |    
+    +------------+-----------+------------------------+
+    |Network     | string    | "2G" , "3G" ,"4G"      |
+    |type        |           |                        |
+    |            |           |                        |
+    +------------+-----------+------------------------+
+    |Flexibility | String    | "High","Moderate",     |
+    |level       |           |  "Low"                 |
+    |            |           |                        |
+    +------------+-----------+------------------------+
